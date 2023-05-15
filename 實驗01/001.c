@@ -18,6 +18,6 @@ int main(){
 		b = c;
 		c = temp;
 	}
-	printf("由小到大： %d %d %d", a, b, c);
+	printf("From small to large： %d %d %d", a, b, c);
 	return 0;
 }

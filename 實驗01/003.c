@@ -25,7 +25,7 @@ int main(){
 	a = aa;
 	b = bb;
 	c = cc;
-	printf("最大： %hu, 值: %hd\n", cc, c);
-	printf("最小： %hu, 值: %hd",  aa, a);
+	printf("Maximum unsigned number： %hu, Value: %hd\n", cc, c);
+	printf("Minimum unsigned number： %hu, Value: %hd",  aa, a);
 	return 0;
 }

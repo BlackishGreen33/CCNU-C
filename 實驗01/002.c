@@ -18,7 +18,7 @@ int main(){
 		b = c;
 		c = temp;
 	}
-	printf("最大值： %d\n", c);
-	printf("最小值： %d", a);
+	printf("Maximum Value： %d\n", c);
+	printf("Minimum Value： %d", a);
 	return 0;
 }
