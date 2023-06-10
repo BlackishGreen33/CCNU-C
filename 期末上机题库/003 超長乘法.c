@@ -24,7 +24,7 @@ void multiply(char *a, char *b){
 }
 int main(){ 
     char a[10001], b[10001]; 
-    scanf("%s%s", a, b); 
+    scanf("test3 %s %s", a, b); 
     multiply(a, b); 
     return 0; 
 }

@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int i=0;
-
 char *judge(char str[]);
-
 int main(){
 	int key=0, num[100]={0}, sum=1;
 	char strstr[1000], *substr, newstr[100][10];
@@ -45,7 +43,6 @@ int main(){
 	for(i=0;i<key;i++)
 		printf("%s   %d\n",newstr[i],num[i]);
 }
-
 char *judge(char str[]){
 	char sub[10];
 	int j=0;
